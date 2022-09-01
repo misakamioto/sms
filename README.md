@@ -1,24 +1,16 @@
 # sms
 
-## Project setup
+## 使用说明
 ```
-npm install
+1.如果没有node.js，请先安装node.js
+2.node.js安装完成后，使用vs code或其他编辑器打开项目
+3.在项目中打开终端，运行命令-----npm i
+4.待所有依赖安装完毕之后，运行命令-----npm run serve
+5.打开local网址即可使用(http://localhost:8080/) 端口号存在占用的情况，请以终端运行结果为准
 ```
-
-### Compiles and hot-reloads for development
+## 其他说明
 ```
-npm run serve
+1.数据采用vuex存储，使用vuex-along持久化存储vuex中的state， session存储，关闭浏览器，数据消失。
+2.之后会考虑使用node.js搭建服务器与数据库进行数据交换。
+3.更多功能还待完善，代码还待优化，虽然是个人的练习，但也想尽可能做的更好。
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
